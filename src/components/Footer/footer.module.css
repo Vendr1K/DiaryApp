@@ -1,0 +1,11 @@
+.text {
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--gray);
+}
+
+.link {
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-left: 4px;
+}

@@ -1,0 +1,13 @@
+.button {
+  padding: 18px 18px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background: var(--primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.primary {
+  background: var(--gradient-primary);
+}

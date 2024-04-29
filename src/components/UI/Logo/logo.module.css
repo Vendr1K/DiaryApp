@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.logo__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: var(--border-radius);
+  background: var(--gradient-primary);
+  box-shadow: var(--box-shadow);
+  margin-right: 18px;
+}
+
+.title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+  color: var(--text);
+  text-shadow: var(--shadow);
+}
