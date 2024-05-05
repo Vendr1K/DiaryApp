@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  shape-rendering: space-around;
   justify-content: space-between;
   width: 100%;
   min-width: 1280px;

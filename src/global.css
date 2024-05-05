@@ -43,9 +43,12 @@ body {
   --primary: #FFE55E;
   --gray: #747576;
   --background: #FDFCF3;
+  --white: #FFF;
   --text: #1e2022;
   --border-radius: 10px;
+  --border-radius-secondary: 12px;
   --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   --gradient-primary: linear-gradient(137deg, #FFF76A 31.13%, #FFCE89 100%);
   --gradient-gray: linear-gradient(137deg, #E9E9E9 31.13%, #C1C1C1 100%);
+  --hover: #ebd14a;
 }

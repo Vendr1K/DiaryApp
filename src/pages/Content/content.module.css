@@ -10,12 +10,5 @@
 }
 
 .button {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 133%;
   padding: 18px 34.5px;
-  height: fit-content;
 }

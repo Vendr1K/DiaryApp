@@ -1,0 +1,26 @@
+.label {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  color: var(--gray);
+}
+
+.input[type='date']::-webkit-calendar-picker-indicator {
+  z-index: 100;
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}

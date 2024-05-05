@@ -1,11 +1,18 @@
 .button {
-  padding: 18px 18px;
+  padding: 18px;
   border: none;
   cursor: pointer;
   font-family: inherit;
   background: var(--primary);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 133%;
+  height: fit-content;
 }
 
 .primary {

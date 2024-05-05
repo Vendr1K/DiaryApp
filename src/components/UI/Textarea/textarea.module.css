@@ -1,0 +1,17 @@
+.area {
+  resize: none;
+  border-radius: var(--border-radius-secondary);
+  padding: 18px;
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--text);
+}
+
+.area::placeholder {
+  color: var(--gray);
+}
